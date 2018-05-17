@@ -190,6 +190,10 @@ const vm = new Vue({
         pet.farmableFrags = 0;
         if (availableFrags !== []) {
           let firstStageFrags = 3;
+          if (pet.index >= data.petList.length - 4) {
+            // Newest pets only have 1 frag on first stage
+            firstStageFrags = 1;
+          }
           for (let i = 0; i < availableFrags.length; i++) {
             if (availableFrags[i][0].name === pet.name) {
               pet.farmableFrags += firstStageFrags;
