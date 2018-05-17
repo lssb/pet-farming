@@ -86,7 +86,6 @@ if (savedData) {
   // Migrate very old data if it exists
   const oldPetList = JSON.parse(localStorage.getItem('petList')) || false;
   if (oldPetList) {
-    localStorage.setItem('petList', false);
     for (let i = 0; i < oldPetList.petList.length; i++) {
       for (let j = 0; j < data.petList.length; j++) {
         if (oldPetList.name === data.petList[j].name.replace(' ', '-')) {
