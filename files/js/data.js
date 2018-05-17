@@ -86,7 +86,7 @@ if (savedData) {
   // Migrate very old data if it exists
   const oldPetList = JSON.parse(localStorage.getItem('petList')) || false;
   if (oldPetList) {
-    for (let i = 0; i < oldPetList.petList.length; i++) {
+    for (let i = 0; i < oldPetList.length; i++) {
       for (let j = 0; j < data.petList.length; j++) {
         if (oldPetList.name === data.petList[j].name.replace(' ', '-')) {
           data.petList[j].fragments = oldPetList.fragments;
