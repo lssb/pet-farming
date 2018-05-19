@@ -29,12 +29,12 @@ h4 {
   width: 1320px;
 }
 
-@media (min-width: 901px) and (max-width:1319px) {
+@media (min-width: 901px) and (max-width: 1319px) {
   #app {
-    width:1020px;
+    width: 1020px;
   }
   #SHList: {
-    max-width:880px;
+    max-width: 880px;
   }
 }
 
@@ -51,9 +51,9 @@ h4 {
 }
 
 #inputsContainer {
-  float:left;
-  width:100px;
-  margin-right:5px;
+  float: left;
+  width: 100px;
+  margin-right: 5px;
 }
 #userInputs,
 #farmList {
@@ -63,26 +63,27 @@ h4 {
   padding: 3px;
   width: 92px;
   position: relative;
-  margin-bottom:5px;
+  margin-bottom: 5px;
 }
 
 #farmList img {
-  width:20px;
-  height:20px;
-  position:relative;
-  top:4px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 4px;
 }
 
-#farmList button, #tierListContainer button {
-  width:40px;
-  height:16px;
-  margin-top:8px;
-  margin-left:25px;
+#farmList button,
+#tierListContainer button {
+  width: 40px;
+  height: 16px;
+  margin-top: 8px;
+  margin-left: 25px;
 }
 
 #farmCount {
-  display:inline-block;
-  width:17px;
+  display: inline-block;
+  width: 17px;
 }
 
 #userInputs label {
@@ -145,7 +146,7 @@ h4 {
 
 #tierList li.disabled {
   background-color: #1a1a1a;
-  color:#777;
+  color: #777;
 }
 
 #tierList li img {
@@ -154,7 +155,7 @@ h4 {
 }
 
 #tierList li.disabled img {
-  opacity:0.3;
+  opacity: 0.3;
 }
 
 #tierList li span {
@@ -183,19 +184,20 @@ h4 {
   position: relative;
 }
 
-.SHRow.lockedStage a.SHStage img{
+.SHRow.lockedStage a.SHStage img {
   filter: none;
 }
-.SHRow.lockedStage a.SHStage, .SHRow.lockedStage span.KLReq {
-  opacity:0.3;
-  color:#ccc;
+.SHRow.lockedStage a.SHStage,
+.SHRow.lockedStage span.KLReq {
+  opacity: 0.3;
+  color: #ccc;
 }
 
 .SHRow a.farmStage img {
   filter: drop-shadow(rgb(30, 220, 30) 1px 1px 5px);
 }
 .SHRow a.farmStage {
-  color:rgb(30,220,30);
+  color: rgb(30, 220, 30);
 }
 .SHStage img {
   width: 32px;
@@ -289,19 +291,11 @@ h4 {
   pointer-events: none;
 }
 
-.petInput > div {
+.starcounter {
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-}
-
-.petInput > div input[type='number'],
-.daycounter {
-  -webkit-user-select: auto;
-  -moz-user-select: auto;
-  -ms-user-select: auto;
-  user-select: auto;
 }
 
 .starcounter img {
@@ -348,7 +342,7 @@ h4 {
 }
 
 .petInput a.zeroStar img {
-  opacity:0.4;
+  opacity: 0.4;
   filter: brightness(40%);
 }
 
