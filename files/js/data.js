@@ -63,10 +63,10 @@ const originalData = {
     { name: 'Woola', fragments: 10, img: 12, farm: false, index: 11, defaultTier: 53 },
     { name: 'Leo', fragments: 10, img: 26, farm: false, index: 20, defaultTier: 54 },
     { name: 'Griffy', fragments: 10, img: 29, farm: false, index: 22, defaultTier: 55 },
-    { name: 'Little Hawk', fragments: 10, img: 183, farm: true, index: 23, defaultTier: 56 },
-    { name: 'Foxy', fragments: 10, img: 184, farm: false, index: 24, defaultTier: 57 },
-    { name: 'Shadow', fragments: 10, img: 185, farm: false, index: 25, defaultTier: 58 },
-    { name: 'Snow Bear', fragments: 10, img: 186, farm: false, index: 26, defaultTier: 59 }
+    { name: 'Little Hawk', fragments: 10, img: 183, farm: true, index: 56, defaultTier: 56 },
+    { name: 'Foxy', fragments: 10, img: 184, farm: false, index: 57, defaultTier: 57 },
+    { name: 'Shadow', fragments: 10, img: 185, farm: false, index: 58, defaultTier: 58 },
+    { name: 'Snow Bear', fragments: 10, img: 186, farm: false, index: 59, defaultTier: 59 }
   ],
   SHList: [],
   KL: 100,
