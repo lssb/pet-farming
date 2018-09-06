@@ -21,7 +21,7 @@ const originalData = {
     { name: 'Moon', fragments: 10, img: 19, farm: true, index: 18, defaultTier: 11 },
     { name: 'Sarah', fragments: 0, img: 55, farm: true, index: 35, defaultTier: 12 },
     { name: 'E-77', fragments: 0, img: 48, farm: true, index: 31, defaultTier: 13 },
-    { name: 'Dark Snake', fragments: 0, img: 50, farm: true, index: 33, defaultTier: 14 },
+    { name: 'DarkSnake', fragments: 0, img: 50, farm: true, index: 33, defaultTier: 14 },
     { name: 'Windy', fragments: 0, img: 49, farm: true, index: 32, defaultTier: 15 },
     { name: 'Athos', fragments: 0, img: 201, farm: true, index: 51, defaultTier: 16 },
     { name: 'Grizzle', fragments: 0, img: 202, farm: true, index: 52, defaultTier: 17 },
@@ -63,7 +63,7 @@ const originalData = {
     { name: 'Woola', fragments: 10, img: 12, farm: false, index: 11, defaultTier: 53 },
     { name: 'Leo', fragments: 10, img: 26, farm: false, index: 20, defaultTier: 54 },
     { name: 'Griffy', fragments: 10, img: 29, farm: false, index: 22, defaultTier: 55 },
-    { name: 'Little Hawk', fragments: 10, img: 183, farm: true, index: 56, defaultTier: 56 },
+    { name: 'LittleHawk', fragments: 10, img: 183, farm: true, index: 56, defaultTier: 56 },
     { name: 'Foxy', fragments: 10, img: 184, farm: false, index: 57, defaultTier: 57 },
     { name: 'Shadow', fragments: 10, img: 185, farm: false, index: 58, defaultTier: 58 },
     { name: 'Snow Bear', fragments: 10, img: 186, farm: false, index: 59, defaultTier: 59 }
