@@ -6,7 +6,7 @@ Vue.directive('sortable', {
 });
 
 const originalData = {
-  version: '2.1.1',
+  version: '2.1.2',
   petList: [
     { name: 'Hippong', fragments: 0, img: 94, farm: true, index: 40, defaultTier: 1 },
     { name: 'Tinkey', fragments: 10, img: 6, farm: true, index: 13, defaultTier: 2 },
