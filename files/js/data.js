@@ -83,7 +83,7 @@ if (savedData) {
   if (savedData.version === originalData.version) {
     data = _.cloneDeep(savedData);
   } else {
-    // Do something if data versions are different
+    data = _.cloneDeep(originalData);
   }
 } else {
   data = _.cloneDeep(originalData);
