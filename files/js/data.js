@@ -66,7 +66,7 @@ const originalData = {
     { name: 'Little Hawk', fragments: 10, img: 183, farm: true, index: 23, defaultTier: 56 },
     { name: 'Foxy', fragments: 10, img: 184, farm: false, index: 24, defaultTier: 57 },
     { name: 'Shadow', fragments: 10, img: 185, farm: false, index: 25, defaultTier: 58 },
-    { name: 'Snow Bear', fragments: 10, img: 186, farm: false, index: 26, defaultTier: 59 },
+    { name: 'Snow Bear', fragments: 10, img: 186, farm: false, index: 26, defaultTier: 59 }
   ],
   SHList: [],
   KL: 100,
