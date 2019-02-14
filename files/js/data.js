@@ -6,7 +6,7 @@ Vue.directive('sortable', {
 });
 
 const originalData = {
-  version: '2.1.2',
+  version: '2.1.3',
   petList: [
     { name: 'Hippong', fragments: 0, img: 94, farm: true, index: 40, defaultTier: 1 },
     { name: 'Tinkey', fragments: 10, img: 6, farm: true, index: 13, defaultTier: 2 },
@@ -63,10 +63,14 @@ const originalData = {
     { name: 'Woola', fragments: 10, img: 12, farm: false, index: 11, defaultTier: 53 },
     { name: 'Leo', fragments: 10, img: 26, farm: false, index: 20, defaultTier: 54 },
     { name: 'Griffy', fragments: 10, img: 29, farm: false, index: 22, defaultTier: 55 },
-    { name: 'LittleHawk', fragments: 10, img: 183, farm: true, index: 56, defaultTier: 56 },
-    { name: 'Foxy', fragments: 10, img: 184, farm: false, index: 57, defaultTier: 57 },
-    { name: 'Shadow', fragments: 10, img: 185, farm: false, index: 58, defaultTier: 58 },
-    { name: 'Snow Bear', fragments: 10, img: 186, farm: false, index: 59, defaultTier: 59 }
+    { name: 'LittleHawk', fragments: 10, img: 183, true: true, index: 56, defaultTier: 56 },
+    { name: 'Foxy', fragments: 10, img: 184, farm: true, index: 57, defaultTier: 57 },
+    { name: 'Shadow', fragments: 10, img: 185, farm: true, index: 58, defaultTier: 58 },
+    { name: 'Snow Bear', fragments: 10, img: 186, farm: true, index: 59, defaultTier: 59 },
+    { name: 'Combat', fragments: 10, img: 207, farm: true, index: 60, defaultTier: 60 },,
+    { name: 'Rolly', fragments: 10, img: 208, farm: true, index: 61, defaultTier: 61 },,
+    { name: 'Scourge', fragments: 10, img: 209, farm: true, index: 62, defaultTier: 62 },,
+    { name: 'Lazy', fragments: 10, img: 210, farm: true, index: 63, defaultTier: 63 },
   ],
   SHList: [],
   KL: 100,
